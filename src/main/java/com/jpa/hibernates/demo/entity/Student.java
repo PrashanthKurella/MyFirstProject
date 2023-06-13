@@ -13,6 +13,8 @@ import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.OneToOne;
 
+
+
 @Entity // to retrieve or change data here mapping course class with table which has
 		// same fields id and name in database
 public class Student {
